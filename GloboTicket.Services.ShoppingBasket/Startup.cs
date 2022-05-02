@@ -61,6 +61,8 @@ namespace GloboTicket.Services.ShoppingBasket
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Shopping Basket API", Version = "v1" });
             });
 
+            services.AddHttpContextAccessor();
+
             services.AddAuthentication("Bearer")
                 .AddJwtBearer(options =>
                 {

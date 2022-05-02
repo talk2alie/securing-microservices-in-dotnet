@@ -28,6 +28,19 @@
           "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
+      "IdentityModel/4.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
+          "System.Text.Encodings.Web": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityModel.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityModel.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.5": {
         "type": "package",
         "dependencies": {
@@ -613,21 +626,13 @@
           "System.Xml.XDocument": "4.3.0"
         }
       },
-      "Newtonsoft.Json/10.0.3": {
+      "Newtonsoft.Json/11.0.2": {
         "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.3.0",
-          "NETStandard.Library": "1.6.1",
-          "System.ComponentModel.TypeConverter": "4.3.0",
-          "System.Runtime.Serialization.Formatters": "4.3.0",
-          "System.Runtime.Serialization.Primitives": "4.3.0",
-          "System.Xml.XmlDocument": "4.3.0"
-        },
         "compile": {
-          "lib/netstandard1.3/Newtonsoft.Json.dll": {}
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.3/Newtonsoft.Json.dll": {}
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "Polly/7.1.0": {
@@ -991,7 +996,7 @@
           "System.Threading": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/System.Collections.NonGeneric.dll": {}
+          "ref/netstandard1.3/_._": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Collections.NonGeneric.dll": {}
@@ -1021,7 +1026,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/System.ComponentModel.dll": {}
+          "ref/netstandard1.0/_._": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.ComponentModel.dll": {}
@@ -1044,7 +1049,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/System.ComponentModel.Primitives.dll": {}
+          "ref/netstandard1.0/_._": {}
         },
         "runtime": {
           "lib/netstandard1.0/System.ComponentModel.Primitives.dll": {}
@@ -1070,7 +1075,7 @@
           "System.Threading": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.5/System.ComponentModel.TypeConverter.dll": {}
+          "ref/netstandard1.5/_._": {}
         },
         "runtime": {
           "lib/netstandard1.5/System.ComponentModel.TypeConverter.dll": {}
@@ -1844,7 +1849,7 @@
           "System.Runtime.Serialization.Primitives": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/System.Runtime.Serialization.Formatters.dll": {}
+          "ref/netstandard1.3/_._": {}
         },
         "runtime": {
           "lib/netstandard1.4/System.Runtime.Serialization.Formatters.dll": {}
@@ -2216,6 +2221,15 @@
           "ref/netstandard1.3/System.Text.Encoding.Extensions.dll": {}
         }
       },
+      "System.Text.Encodings.Web/4.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/System.Text.Encodings.Web.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/System.Text.Encodings.Web.dll": {}
+        }
+      },
       "System.Text.RegularExpressions/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2366,7 +2380,7 @@
           "System.Xml.ReaderWriter": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/System.Xml.XmlDocument.dll": {}
+          "ref/netstandard1.3/_._": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
@@ -2455,6 +2469,27 @@
         "automapper.extensions.microsoft.dependencyinjection.nuspec",
         "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll",
         "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.pdb"
+      ]
+    },
+    "IdentityModel/4.4.0": {
+      "sha512": "b18wrIx5wnZlMxAX7oVsE+nDtAJ4hajYlH0xPlaRvo4r/fz08K6pPeZvbiqS9nfNbzfIgLFmNX+FL9qR9ZR5PA==",
+      "type": "package",
+      "path": "identitymodel/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.jpg",
+        "identitymodel.4.4.0.nupkg.sha512",
+        "identitymodel.nuspec",
+        "lib/net461/IdentityModel.dll",
+        "lib/net461/IdentityModel.pdb",
+        "lib/net461/IdentityModel.xml",
+        "lib/net472/IdentityModel.dll",
+        "lib/net472/IdentityModel.pdb",
+        "lib/net472/IdentityModel.xml",
+        "lib/netstandard2.0/IdentityModel.dll",
+        "lib/netstandard2.0/IdentityModel.pdb",
+        "lib/netstandard2.0/IdentityModel.xml"
       ]
     },
     "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.5": {
@@ -3347,11 +3382,10 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Newtonsoft.Json/10.0.3": {
-      "sha512": "hSXaFmh7hNCuEoC4XNY5DrRkLDzYHqPx/Ik23R4J86Z7PE/Y6YidhG602dFVdLBRSdG6xp9NabH3dXpcoxWvww==",
+    "Newtonsoft.Json/11.0.2": {
+      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
       "type": "package",
-      "path": "newtonsoft.json/10.0.3",
-      "hasTools": true,
+      "path": "newtonsoft.json/11.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3368,13 +3402,14 @@
         "lib/netstandard1.0/Newtonsoft.Json.xml",
         "lib/netstandard1.3/Newtonsoft.Json.dll",
         "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
         "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
         "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.10.0.3.nupkg.sha512",
-        "newtonsoft.json.nuspec",
-        "tools/install.ps1"
+        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
       ]
     },
     "Polly/7.1.0": {
@@ -7403,6 +7438,27 @@
         "system.text.encoding.extensions.nuspec"
       ]
     },
+    "System.Text.Encodings.Web/4.7.0": {
+      "sha512": "IJanJWPQvya2sbGStt3Fkdy4IaomUBSadAfYWeJDQw0zclMk9ixSvMeei6cSmTTQ6ZkGIIAbhHZVCoLR7GgX7Q==",
+      "type": "package",
+      "path": "system.text.encodings.web/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard1.0/System.Text.Encodings.Web.xml",
+        "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard2.0/System.Text.Encodings.Web.xml",
+        "lib/netstandard2.1/System.Text.Encodings.Web.dll",
+        "lib/netstandard2.1/System.Text.Encodings.Web.xml",
+        "system.text.encodings.web.4.7.0.nupkg.sha512",
+        "system.text.encodings.web.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Text.RegularExpressions/4.3.0": {
       "sha512": "RpT2DA+L660cBt1FssIE9CAGpLFdFPuheB7pLpKpn6ZXNby7jDERe8Ua/Ne2xGiwLVG2JOqziiaVCGDon5sKFA==",
       "type": "package",
@@ -8046,6 +8102,7 @@
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 7.0.0",
       "GloboTicket.Integration.Messages >= 1.0.0",
       "GloboTicket.Integration.MessagingBus >= 1.0.0",
+      "IdentityModel >= 4.4.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 3.1.5",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.5",
@@ -8103,6 +8160,10 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[7.0.0, )"
+          },
+          "IdentityModel": {
+            "target": "Package",
+            "version": "[4.4.0, )"
           },
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",

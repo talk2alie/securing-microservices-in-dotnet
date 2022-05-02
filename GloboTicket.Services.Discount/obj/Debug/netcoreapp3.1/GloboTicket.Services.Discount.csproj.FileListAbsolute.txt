@@ -128,3 +128,11 @@ C:\Repos\GloboTicket\GloboTicket.Services.Discount\obj\Debug\netcoreapp3.1\Globo
 C:\Repos\GloboTicket\GloboTicket.Services.Discount\obj\Debug\netcoreapp3.1\GloboTicket.Services.Discount.dll
 C:\Repos\GloboTicket\GloboTicket.Services.Discount\obj\Debug\netcoreapp3.1\GloboTicket.Services.Discount.pdb
 C:\Repos\GloboTicket\GloboTicket.Services.Discount\obj\Debug\netcoreapp3.1\GloboTicket.Services.Discount.genruntimeconfig.cache
+C:\Repos\GloboTicket\GloboTicket.Services.Discount\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Repos\GloboTicket\GloboTicket.Services.Discount\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Repos\GloboTicket\GloboTicket.Services.Discount\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Repos\GloboTicket\GloboTicket.Services.Discount\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Repos\GloboTicket\GloboTicket.Services.Discount\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Repos\GloboTicket\GloboTicket.Services.Discount\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Repos\GloboTicket\GloboTicket.Services.Discount\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Repos\GloboTicket\GloboTicket.Services.Discount\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll

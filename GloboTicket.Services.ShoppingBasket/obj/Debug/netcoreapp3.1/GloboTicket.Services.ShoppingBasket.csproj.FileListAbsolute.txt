@@ -157,3 +157,4 @@ C:\Repos\GloboTicket\GloboTicket.Services.ShoppingBasket\obj\Debug\netcoreapp3.1
 C:\Repos\GloboTicket\GloboTicket.Services.ShoppingBasket\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Repos\GloboTicket\GloboTicket.Services.ShoppingBasket\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
 C:\Repos\GloboTicket\GloboTicket.Services.ShoppingBasket\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Repos\GloboTicket\GloboTicket.Services.ShoppingBasket\bin\Debug\netcoreapp3.1\IdentityModel.dll
